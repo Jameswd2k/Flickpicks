@@ -69,7 +69,7 @@ let test = []
 searchInput.addEventListener("input", (e) => {
     const value = e.target.value.toLowerCase()
     test.forEach(test => {
-        const isVisible = test.movie_name.toLowerCase().includes(value) || test.genre.toLowerCase().includes(value) || test.genre2.toLowerCase().includes(value) 
+        const isVisible = test.movie_name.toLowerCase().includes(value) || test.genre.toLowerCase().includes(value) || test.genre2.toLowerCase().includes(value) || test.year.toLowerCase().includes(value)  
         test.element.classList.toggle("hide", !isVisible)
     })
     
