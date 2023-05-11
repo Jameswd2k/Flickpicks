@@ -4,25 +4,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
     <script src="contactUs.js" defer></script>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     
 </head>
 
 <body>
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                Flick<span>Picks</span>
+            </a>
+            <!-- NavBar -->
+            <div class="navbar">
+                <a href="index.html" class="nav-link nav-active">
+                    <i class='bx bx-home' ></i>
+                    <span class="nav-link-title">Home</span>
+                </a>
+                <a href="AboutUs.html" class="nav-link">
+                    <span class="nav-link-title">About Us</span>
+                </a>
+                <a href="contact.html" class="nav-link">
+                    <span class="nav-link-title">Contact Us</span>
+                </a>
+                <a href="search.html" class="nav-link">
+                    <span class="nav-link-title">Search</span>
+                </a>
+            </div>
+        </div>
+
+    </header>
+    <section class = "home container" id = "home">
     <div id="error"></div>
     <form id="form">
-        <div>
+        <div class = "home-text">
+            <h1 class="home-title">Contact us below</h1>
             <label for="message">Message</label>
             <input id="message" name="message" type="text" required>
         </div>
 
-        <div>
+        <div class = "home-text">
             <label for="email">Email</label>
+            
             <input id="email" name="email" type="text">
+        
         </div>
-
+        <div class = "home-text">
         <button type ="submit">Enter</button>
-
+    </div>
     </form>
-
+    </section>
 </body>
 </html>
