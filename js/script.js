@@ -4,49 +4,57 @@ SAMPLE_CARDS = [{
     image : "text",
     info : "This movie is about a board game that comes to life",
     genre : "Action", 
-    genre2 :  ""
+    genre2 :  "",
+    year: "2017"
 }, 
 {   movie_name : "Hitman & Bodyguard 2",
     image : "Text",
     info : "This movie is about hitmen protecting an important client",
     genre : "Action",
-    genre2 :  "Comedy"
+    genre2 :  "Comedy",
+    year: "2021"
 },
 {   movie_name : "Shang-Chi",
     image : "Text",
     info : "This movie is about a superhero discovering his power",
     genre : "Action", 
-    genre2 : "Sci-Fi"
+    genre2 : "Sci-Fi",
+    year: "2021"
 },
 {   movie_name : "Eternals",
     image : "Text",
     info : "This movie is about ancient guardians of the Earth",
     genre : "Action", 
-    genre2 : "Sci-Fi"
+    genre2 : "Sci-Fi",
+    year: "2021"
 },
 {   movie_name : "Spectre",
     image : "Text",
     info : "This movie is about James Bond infiltrating a secret society",
     genre : "Action",
-    genre2 :  ""
+    genre2 :  "",
+    year: "2015"
 },
 {   movie_name : "Money Heist",
     image : "Text",
     info : "This movie is about pulling off the greatest ever heist",
     genre : "Action",
-    genre2 : "Sci-Fi"
+    genre2 : "Sci-Fi",
+    year: "2017"
 },
 {   movie_name : "The Wolverine",
     image : "Text",
     info : "This movie is about the origins of Logan the Wolverine",
     genre : "Action",
-    genre2 : "Sci-Fi"
+    genre2 : "Sci-Fi",
+    year: "2013"
 },
 {   movie_name : "Johnny English",
     image : "Text",
     info : "This movie is about Johnny English the sophisitcated and suave English spy",
     genre : "Action",
-    genre2 : "Comedy" 
+    genre2 : "Comedy",
+    year: "2018"
 }
 
 ]
@@ -78,15 +86,17 @@ const Display = (SAMPLE_CARDS => {
     const body2 = card.querySelector("[data-body2]")
     const body3 = card.querySelector("[data-body3]") 
     const body4 = card.querySelector("[data-body4]")
+    const body5 = card.querySelector("[data-body5]")
     header.textContent = SAMPLE_CARDS.movie_name
     body1.textContent = SAMPLE_CARDS.image
     body2.textContent = SAMPLE_CARDS.info
     body3.textContent = SAMPLE_CARDS.genre
     body4.textContent = SAMPLE_CARDS.genre2
+    body5.textContent = SAMPLE_CARDS.year
 
     movieCardContainer.append(card)
     console.log(SAMPLE_CARDS)
-    return { movie_name: SAMPLE_CARDS.movie_name, genre: SAMPLE_CARDS.genre, genre2: SAMPLE_CARDS.genre2, element: card}
+    return { movie_name: SAMPLE_CARDS.movie_name, genre: SAMPLE_CARDS.genre, genre2: SAMPLE_CARDS.genre2, year: SAMPLE_CARDS.year, element: card}
     });
 })
 
