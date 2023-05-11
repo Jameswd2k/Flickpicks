@@ -1,8 +1,7 @@
-import image1 from "./assets/the-flash-new-poster-1"
 
 SAMPLE_CARDS = [{
     movie_name : "Jumanji",
-    image : <img src="./assets/the-flash-new-poster-1"></img>,
+    image : "text",
     info : "This movie is about a board game that comes to life",
     genre : "Fantasy"
 }, 
