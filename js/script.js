@@ -1,14 +1,45 @@
 
 SAMPLE_CARDS = [{
-    movie_name : "Jumanji",
+    movie_name : "Jumanji: Welcome to the Jungle",
     image : "text",
     info : "This movie is about a board game that comes to life",
-    genre : "Fantasy"
+    genre : "Action"
 }, 
-{   movie_name : "Lucy",
+{   movie_name : "Hitman & Bodyguard 2",
     image : "Text",
-    info : "This movie is about a woman who becomes smarter",
-    genre : "Action"}
+    info : "This movie is about hitmen protecting an important client",
+    genre : "Action", "Comedy"
+},
+{   movie_name : "Shang-Chi",
+    image : "Text",
+    info : "This movie is about a superhero discovering his power",
+    genre : "Action", "Sci-Fi"
+},
+{   movie_name : "Eternals",
+    image : "Text",
+    info : "This movie is about ancient guardians of the Earth",
+    genre : "Action", "Sci-Fi"
+},
+{   movie_name : "Spectre",
+    image : "Text",
+    info : "This movie is about James Bond infiltrating a secret society",
+    genre : "Action"
+},
+{   movie_name : "Money Heist",
+    image : "Text",
+    info : "This movie is about pulling off the greatest ever heist",
+    genre : "Action", "Sci-Fi"
+},
+{   movie_name : "The Wolverine",
+    image : "Text",
+    info : "This movie is about the origins of Logan the Wolverine",
+    genre : "Action", "Sci-Fi"
+},
+{   movie_name : "Johnny English",
+    image : "Text",
+    info : "This movie is about Johnny English the sophisitcated and suave English spy",
+    genre : "Action", "Comedy"
+}
 
 ]
 
