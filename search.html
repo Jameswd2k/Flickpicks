@@ -4,15 +4,44 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flick Picks</title>
-    <link rel="stylesheet" href="./css/stylesheet.css"> 
+    <link rel="stylesheet" href="./css/style.css"> 
     <script src="./js/script.js" defer></script>
 </head>
 <body>
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                Flick<span>Picks</span>
+            </a>
+            <!-- Search Box -->
+            
+            <!-- NavBar -->
+            <div class="navbar">
+                <a href="index.html" class="nav-link">
+                    <i class='bx bx-home' ></i>
+                    <span class="nav-link-title">Home</span>
+                </a>
+                <a href="AboutUs.html" class="nav-link">
+                    <span class="nav-link-title">About Us</span>
+                </a>
+                <a href="contact.html" class="nav-link">
+                    <span class="nav-link-title">Contact Us</span>
+                </a>
+                <a href="search.html" class="nav-link nav-active">
+                    <span class="nav-link-title">Search</span>
+                </a>
+            </div>
+        </div>
+    </header>
    <div class="search-wrapper">
+
     <label for="search">Search database </label>
     <input type="search" id="search" data-search>
-   </div>
+</div>
 
+<div class ="Wrapper">
    <div class="movie-cards" data-movie-card-container>
     <template data-movie-template>
      <div class="card">
@@ -20,8 +49,10 @@
      <div class="body1" data-body1></div>
      <div class="body2" data-body2></div>
      <div class="body3" data-body3></div>
+     <div class="body4" data-body4></div>
     </template>
     </div>
+</div>
     
 
    
