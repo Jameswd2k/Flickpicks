@@ -145,6 +145,7 @@ input[type=text] {
   margin: 8px 0;
   box-sizing: border-box;
 }
+
 .hide {
   display: none;
 }
@@ -188,9 +189,12 @@ input[type=text] {
   border-radius: 10px;
   padding: 15px;
   width:220px;
-  height: 245px;
+  height: 345px;
 
   flex:auto;
+}
+.body1 {
+  height: 200px
 }
 
 .Wrapper {
@@ -199,6 +203,17 @@ input[type=text] {
   margin-left: 300px;
   border-radius: 10px;
   width: 1050px;
+}
+.body6 {
+  display : hide;
+}
+
+.error {
+  position: fixed;
+  margin-bottom: 375px;
+  margin-left: 65px;
+  color: red;
+  
 }
 
 /* Heading */
