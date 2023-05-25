@@ -431,7 +431,7 @@ input[type=text] {
     font-size: 1.4rem;
   }
 }
-.movies-content .movie-box a:link {
+.movies-content a:link {
   color: green;
   background-color: transparent;
   text-decoration: none;
@@ -443,13 +443,13 @@ input[type=text] {
   text-decoration: none;
 }
 
-a:hover {
+.movies-content a:hover {
   color: red;
   background-color: transparent;
   text-decoration: underline;
 }
 
-a:active {
+.movies-content a:active {
   color: yellow;
   background-color: transparent;
   text-decoration: underline;
